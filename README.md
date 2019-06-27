@@ -18,13 +18,12 @@ In einem Textblock koennen Sie das Plugin in einem
 [uvp...] Block verwenden.
 
 ### Parameter:
->   guid: die eindeutige ID des Videos oder Livestreams. Zu finden entweder per Notification oder Portal.
->   secure (optional, default: false): Wenn dieser Parameter auf true gesetzt wird, wird ein Parameter mit einem Secure Token
->                                      dem Aufruf hinzugefuegt. Dazu werden die IP Adresse des Aufrufers, und die Guid genommen,
->                                      und mit dem Ablaufdatum (aktuelle Zeit plus ein Tag) und eine eindeutige ID genommen, und
->                                      mit dem per Setting eingetragenen Secure Token als JWT erstellt.
->   width: Die Breite die das Video auf der Oberflaeche haben soll, default ist 640
->   height: Die Hoehe die das Video auf der Oberflaeche haben soll, default ist 380
+guid: die eindeutige ID des Videos oder Livestreams. Zu finden entweder per Notification oder Portal.
+
+secure (optional, default: false): Wenn dieser Parameter auf true gesetzt wird, wird ein Parameter mit einem Secure Token dem Aufruf hinzugefuegt. Dazu werden die IP Adresse des Aufrufers, und die Guid genommen, und mit dem Ablaufdatum (aktuelle Zeit plus ein Tag) und eine eindeutige ID genommen, und mit dem per Setting eingetragenen Secure Token als JWT erstellt.
+
+width: Die Breite die das Video auf der Oberflaeche haben soll, default ist 640
+height: Die Hoehe die das Video auf der Oberflaeche haben soll, default ist 380
 
 
 ## Beispiel:
