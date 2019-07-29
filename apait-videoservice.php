@@ -62,7 +62,7 @@ function vs_uvp_call($atts) {
                         $htmliframe .= '?SecureToken='.$jwt;
                 }
 
-                $retval = '<iframe width="'.$width.'" height="'.$height.'" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="'.$htmliframe.'"></iframe>';
+                $retval = '<iframe width="'.$width.'" height="'.$height.'" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" allowfullscreen src="'.$htmliframe.'"></iframe>';
 
         }
 
